@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FitWorks GYM Registration</title>
+	</head>
+	<body>
+		<section class="section-1"> <h1 class="section-1-heading"> FIT-Works GYM </h1> </section>
+		<div class="register">
+			<h1>Registration Form</h1>
+			<form method="post" action="index.php">
+			
+			<link href="index-style.css" rel="stylesheet" type="text/css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+				
+				<label for="first_name">
+					<i class="fas fa-user"></i>
+				</label>
+				<input name="first_name" type="text" placeholder="First Name" id="first_name" autocomplete="given-name">
+				
+				<label for="last_name">
+					<i class="fas fa-blank"></i>
+				</label>
+				<input name="last_name" type="text" placeholder="Last Name" id="last_name" autocomplete="family-name">
+				
+				<label for="phone_number">
+					<i class="fas fa-phone"></i>
+					</label>
+				<input name="phone_number" type="tel" placeholder="Phone Number" id="phone_number" minLength="10" maxLength="10">
+				
+				<label for="email">
+					<i class="fas fa-envelope"></i>
+				</label>
+				<input type="email" name="email" placeholder="Email" id="email"  autocomplete="on" required>
+				</label>
+				
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password"  minLength="4" autocomplete="off" required>
+				
+				<label for="fitness_goals">
+					<i class="fas fa-blank"></i>
+				</label>
+				<input name="fitness_goals" type="text" placeholder="Lose weight, Gain muscle" id="fitness_goals">
+
+				<label for="workout_schedule">
+					<i class="fas fa-blank"></i>
+				</label>
+				<input name="workout_schedule" type="text" placeholder="Mon - Thur" id="workout_schedule">
+
+				<label for="fitness_level">
+					<i class="fas fa-blank"></i>
+				</label>
+				<input name="fitness_level" type="text" placeholder="Beginner / Intermediate / Proffesional" id="fitness_level">
+				<input type="submit" value="Register">
+
+			</form>
+		</div>
+	</body>
+</html>
