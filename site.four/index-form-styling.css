@@ -1,0 +1,112 @@
+<style>
+
+html, body {
+    min-height: 100%;
+}
+
+body, div, form, input, p { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(82, 82, 82);
+    line-height: 28px;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 48px;
+    color: rgb(37, 139, 255);
+    background-color: rgba(84, 84, 84, 0);
+}
+
+h1, h4 {
+    font-weight: 400;
+}
+
+h4 {
+    margin: 25px 0 5px;
+    color: #0d00ff;
+}
+
+.testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 3px;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+    background: rgb(220, 220, 220);
+    box-shadow: 0 2px 5px #ccc; 
+}
+
+input {
+    width: auto;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.ticket {
+    font-size: px;
+    padding: 6;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(165, 161, 161);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+  
+.ticket .select {
+    width: 50%;
+}
+  
+.ticket .select select{
+    background: transparent;
+    line-height: 10;
+    border: 0;
+    padding: 0;
+    border-radius: 80;
+    width: 20%;
+    position: relative;
+    z-index: 10;
+    font-size: 1em;
+}
+
+.email {
+    text-align: center;
+}
+
+.question-answer label {
+    display: block;
+}
+
+.btn-block {
+    margin-top: 20px;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    background-color: #095484;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0666a3;
+}
