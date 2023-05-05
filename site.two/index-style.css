@@ -1,0 +1,302 @@
+* {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display:flexbox;
+}
+
+a {
+	cursor:pointer;
+}
+
+.nav {
+  background-color: #000000;
+  overflow: hidden;
+  width: 100%;
+}
+
+.logo-img {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	background-color: #000000;
+	overflow: hidden;
+}
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #890402;
+  color: black;
+}
+
+.nav a.active {
+  background-color: #f3dcdc;
+  color: black;
+}
+
+.nav a.split {
+  float: right;
+  background-color: #ff0000;
+  color: white;
+}
+
+.nav a.split:hover {
+  float: right;
+  background-color: #000000;
+  color: white;
+}
+
+
+.nav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  font-size: 17px;
+}
+
+.nav .search {
+  float: right;
+}
+
+.nav .search button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ff0000;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.nav .search button:hover {
+  background: #ccc;
+}
+
+
+/*-------------------------------------SECTION CUTTER---------------------*/
+
+h1 {
+	text-align:center;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.wide {
+  letter-spacing: 4px;
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+
+.container {
+  padding: 0.01em 16px;
+}
+
+.content {
+  max-width: 980px;
+  margin: auto;
+}
+
+.statment {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: underline solid rgb(68, 68, 68);
+}
+
+.center {
+  text-align: center;
+}
+
+section {
+  display: block;
+}
+/*---------------------------article----------------*/
+
+.row-padding {
+  padding: 0 8px;
+}
+
+.item {
+  float: left;
+  width: 100%;
+}
+
+article {
+  display:block;
+}
+
+.light-grey, .hover-light-grey:hover, .light-gray, .hover-light-gray:hover {
+  color: #000;
+  background-color: #f1f1f1;
+}
+
+
+.item {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+.item-title {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 25px;
+  word-spacing: 2px;
+  color: #FF0000;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.item-discount {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  text-decoration: line-through solid rgb(68, 68, 68);
+}
+
+.item-dis {
+  font-family: Georgia, serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+}
+
+
+.sale-button {
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 10px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 30%;
+}
+
+.sale-button:disabled {
+  pointer-events: none;
+}
+
+.sale-button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.sale-button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.ship {
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+  float:left;
+}
+
+.ship-img {
+
+  width: 30%;
+}
+
+.ship-txt {
+  float:right;
+  font-family: "Cutive Mono", monospace;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  word-spacing: 3px;
+}
+
+/*-------------------------footer----------------------------------*/
+footer {
+  color: #fff!;
+  background-color: #000;
+}
+
+.container {
+  padding: 0.01em 16px;
+}
+
+.padding-64 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+
+.black {
+  color: rgb(255, 0, 0);
+  background-color: #000;
+}
+
+.xlarge {
+  font-size: 24px;
+}
+
+
+/*--------------------screen config------------------*/
+
+@media screen and (max-width: 1020px) {
+  .nav .search {
+    float: left;
+  }
+
+  .image1 {
+    width: 980px;
+    height: auto;
+  }
+
+  .ship {
+    display: block;
+    width: 100%
+  }
+
+  .ship-img {
+    width: 50%;
+  }
+
+@media screen and (max-width: 1020px) {
+  .nav a, .nav input[type=text], .nav .search button {
+    float: center;
+    display: flexbox;
+
+    text-align: center;
+    width: 100%;
+    padding: 15px;
+  }
+  .nav input[type=text] {
+    border: 1px solid rgb(255, 255, 255);
+  }
+}
