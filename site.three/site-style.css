@@ -1,0 +1,49 @@
+.title {
+    text-align: center;
+    color: Black;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+.text-survey {
+    text-align:center;
+}
+
+body {
+    background-color: lightgray;
+}
+
+button{
+    padding: 12px 18px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 1px rgb(224, 39, 39) ;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: rgb(69, 71, 71);
+    color: rgb(246, 244, 248);
+}
+
+input[type="radio"]{
+    margin: 0 10px 0 20px;
+}
+
+#error_msg
+{
+    width:50%;
+    margin-bottom: 30%;
+    margin-top: 10%;
+    margin-left: 10%;
+    height:30px;
+    border:0px solid #FF0000;
+    background:red;
+   color:#FF0000;
+   text-align:justify;
+   padding-top:30px;
+}
